@@ -45,7 +45,6 @@
                 <td class="text-center">1</td>
                 <td class="text-center">299,000 vnđ</td>
               </tr>
-
               <tr style="background: #fafafa">
                 <td colspan="2">Tạm tính</td>
                 <td class="text-center"></td>
