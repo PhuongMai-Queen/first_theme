@@ -62,12 +62,12 @@
                   </div>
                 </div>
               </li>
-              <li class="menu-item"><nuxt-link to="#">Về chúng tôi</nuxt-link></li>
+              <li class="menu-item"><nuxt-link to="">Về chúng tôi</nuxt-link></li>
               <li class="menu-item dropdown"><nuxt-link to="#">Blog</nuxt-link></li>
               <li class="menu-item menu-item-has-children dropdown"><nuxt-link to="#">Page <i class="fas fa-caret-down"></i></nuxt-link>
                 <ul class="sub-menu">
-                  <li class="menu-item"><nuxt-link to="#">Wishlist</nuxt-link></li>
-                  <li class="menu-item"><nuxt-link to="#">Giỏ hàng</nuxt-link></li>
+                  <li class="menu-item"><nuxt-link to="wishlist">Wishlist</nuxt-link></li>
+                  <li class="menu-item"><nuxt-link to="carts">Giỏ hàng</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="#">Thanh toán</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="#">Quản lý tài khoản</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="#">Theo dõi đơn hàng</nuxt-link></li>
