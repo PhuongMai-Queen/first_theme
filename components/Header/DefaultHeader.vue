@@ -68,7 +68,7 @@
                 <ul class="sub-menu">
                   <li class="menu-item"><nuxt-link to="wishlist">Wishlist</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="carts">Giỏ hàng</nuxt-link></li>
-                  <li class="menu-item"><nuxt-link to="#">Thanh toán</nuxt-link></li>
+                  <li class="menu-item"><nuxt-link to="">Thanh toán</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="#">Quản lý tài khoản</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="#">Theo dõi đơn hàng</nuxt-link></li>
                 </ul>
@@ -111,8 +111,8 @@
                   <p>Tổng số tiền: <span>1.468.000đ</span></p>
                 </div>
                 <div class="ps-cart__footer">
-                  <nuxt-link class="ps-btn" to="cart.html">Giỏ hàng</nuxt-link>
-                  <nuxt-link class="ps-btn" to="checkout.html">Thanh toán</nuxt-link>
+                  <nuxt-link class="ps-btn" to="/carts">Giỏ hàng</nuxt-link>
+                  <nuxt-link class="ps-btn" to="/carts/pays">Thanh toán</nuxt-link>
                 </div>
               </div>
             </div>
