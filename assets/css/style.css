@@ -7530,7 +7530,7 @@ button.ps-btn--gray:before {
   transition: all 0.4s ease;
 }
 
-.ps-product--detail .ps-product__shopping .ps-product__actions a i {
+.ps-product--detail .ps-product__shopping .ps-product__actions a svg {
   position: absolute;
   top: 50%;
   left: 50%;
