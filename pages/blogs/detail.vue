@@ -97,7 +97,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <button class="ps-btn ps-btn--sm ps-contact__submit">Gửi<i class="fas fa-arrow-right"></i></button>
+                <button class="ps-btn ps-btn--sm ps-contact__submit">Gửi <font-awesome-icon :icon="['fas', 'arrow-right']"></font-awesome-icon></button>
               </div>
             </form>
           </div>
@@ -105,7 +105,7 @@
             <aside class="ps-widget--sidebar ps-widget--search">
               <form class="ps-search--widget" action="do_action" method="post">
                 <input class="form-control" type="text" placeholder="Tìm bài viết...">
-                <button><i class="fas fa-search"></i></button>
+                <button><font-awesome-icon :icon="['fas', 'search']"></font-awesome-icon></button>
               </form>
             </aside>
             <aside class="ps-widget--sidebar">
