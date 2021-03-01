@@ -315,8 +315,10 @@
                                                              to="blog.html">Admin </nuxt-link></span> -<span
                     class="ml-5">Jan 10, 2021</span></p>
                   <p>Thay vì hoang mang khi dịch bệnh trở lại, hãy cùng tuân thủ các quy tắc vệ sinh phòng dịch, đồng thời lựa
-                    chọn thực phẩm đảm bảo dinh dưỡng cân bằng mỗi ngày...</p><nuxt-link class="ps-morelink" to="/blogs/">Đọc thêm
-                    <font-awesome-icon :icon="['fas', 'arrow-right']"></font-awesome-icon></nuxt-link>
+                    chọn thực phẩm đảm bảo dinh dưỡng cân bằng mỗi ngày...</p>
+                  <nuxt-link class="ps-morelink" to="/blogs/">
+                    Đọc thêm<font-awesome-icon :icon="['fas', 'arrow-right']"></font-awesome-icon>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -338,4 +340,5 @@ export default {
   name: 'MyComponent',
   components: { VueSlickCarousel},
 }
+
 </script>
