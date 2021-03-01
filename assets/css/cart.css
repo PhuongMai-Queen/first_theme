@@ -1,17 +1,17 @@
-.flex-container{
+.flex-container {
   display: flex;
   height: auto;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.flex-item{
-padding-top: 10px;
+.flex-item {
+  padding-top: 10px;
 }
 .flex-item > span {
   color: silver;
 }
-#coins{
+#coins {
   font-size: 15px;
   color: #2b2828;
 }
@@ -20,94 +20,116 @@ padding-top: 10px;
   height: 200px;
   width: 200px;
 }
-.cl-container{
+.cl-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 100px 200px ;
+  grid-template-columns: 100px 200px;
 }
-.form-container{
+.form-container {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
 }
 .grid-item {
-color: #2b2828;
+  color: #2b2828;
   font-size: 15px;
   text-align: center;
 }
-.grid-item > a{
+.grid-item > a {
   color: #2ac27d;
 }
 .grid-item > a:hover {
   color: silver;
 }
-.location{
- flex-direction:row;
+.location {
+  flex-direction: row;
   justify-content: space-around;
 }
-.location-container{
+.location-container {
   text-align: center;
   color: silver;
 }
-.bill-container > span{
+.bill-container > span {
   color: silver;
 }
 /*css buytton số lượng */
 .buttons_added {
-  opacity:1;
-  display:inline-block;
-  display:-ms-inline-flexbox;
-  display:inline-flex;
-  white-space:nowrap;
-  vertical-align:top;
+  opacity: 1;
+  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: top;
 }
 .is-form {
-  overflow:hidden;
-  position:relative;
-  background-color:#f9f9f9;
-  height:2.2rem;
-  width:1.9rem;
-  padding:0;
-  text-shadow:1px 1px 1px #fff;
-  border:1px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  background-color: #f9f9f9;
+  height: 2.2rem;
+  width: 1.9rem;
+  padding: 0;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #ddd;
 }
-.is-form:focus,.input-text:focus {
-  outline:none;
+.is-form:focus,
+.input-text:focus {
+  outline: none;
 }
 .is-form.minus {
-  border-radius:4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
 }
 .is-form.plus {
-  border-radius:0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
 }
 .input-qty {
   width: 20%;
-  background-color:#fff;
-  height:2.2rem;
-  text-align:center;
-  font-size:1rem;
-  display:inline-block;
-  vertical-align:top;
-  margin:0;
-  border-top:1px solid #ddd;
-  border-bottom:1px solid #ddd;
-  border-left:0;
-  border-right:0;
-  padding:0;
+  background-color: #fff;
+  height: 2.2rem;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
 }
-.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
-  -webkit-appearance:none;
-  margin:0;
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 /*----------------------*/
-.ifo-container{
+.ifo-container {
   width: 60%;
-margin: 0 auto;
-padding: 20px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.form-group > input,textarea{
+.form-group > input,
+textarea {
   background-color: white;
+}
+.card {
+  border: none;
+}
+
+.label-acc {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.form-control {
+  background-color: #eeeeee;
+  height: 42px;
+}
+.form-check-label {
+  margin-bottom: 0;
+  padding-left: 23px;
 }
