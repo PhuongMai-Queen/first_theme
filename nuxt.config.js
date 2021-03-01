@@ -19,7 +19,8 @@ module.exports = {
     },
     css: [
         '@/assets/css/style.css',
-        '@/assets/css/custom.css'
+        '@/assets/css/custom.css',
+        '@/assets/css/tabs.css'
     ],
     js: [
     ],
