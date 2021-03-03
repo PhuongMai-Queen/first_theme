@@ -69,8 +69,8 @@
                   <li class="menu-item"><nuxt-link to="/wishlist">Wishlist</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="/carts">Giỏ hàng</nuxt-link></li>
                   <li class="menu-item"><nuxt-link to="/carts/checkout">Thanh toán</nuxt-link></li>
-                  <li class="menu-item"><nuxt-link to="#">Quản lý tài khoản</nuxt-link></li>
-                  <li class="menu-item"><nuxt-link to="#">Theo dõi đơn hàng</nuxt-link></li>
+                  <li class="menu-item"><nuxt-link to="/account/">Quản lý tài khoản</nuxt-link></li>
+                  <li class="menu-item"><nuxt-link to="/tracking-order/">Theo dõi đơn hàng</nuxt-link></li>
                 </ul>
               </li>
               <li class="menu-item"><nuxt-link to="/contact-us">Liên hệ</nuxt-link></li>

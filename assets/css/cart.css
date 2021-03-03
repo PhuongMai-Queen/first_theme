@@ -133,3 +133,10 @@ textarea {
   margin-bottom: 0;
   padding-left: 23px;
 }
+
+.social-buttons {
+  display: flex;
+  text-align: center;
+  width: 22%;
+  margin: 0 auto;
+}
