@@ -231,3 +231,36 @@
 .bg--parallax .container .slick-slider .slick-dots li button:before {
   color: white;
 }
+.admin-nav-icon div svg{
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+}
+.admin-nav-icon{
+  float: right;
+}
+.btn-secondary{
+  outline: none;
+  border: none;
+  background-color: #f0f8ff00;
+
+}
+.btn-secondary:not(:disabled):not(.disabled):active{
+  color: #F44336;
+  background-color: #fff0;
+  border-color: #fff0;
+}
+button:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+.btn-secondary:focus,
+.btn-secondary:hover{
+  color: #F44336;
+  background-color: #ffffff00;
+  border-color: #fff0;
+  box-shadow: none !important;
+}
+.sidebar .menu .list a:hover,
+.sidebar .menu .list a:hover span{
+  color: #F44336;
+}

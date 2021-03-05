@@ -20,7 +20,7 @@
                                 <div class="block block-three"></div>
                                 <div class="block block-four"></div>
                                 <a>
-                                    <img class="avatar" src="~assets/images/user/1.jpg">
+                                    <img class="avatar" src="~assets/images/user/user.png">
                                     <h5 class="title">Khách Hàng</h5>
                                 </a>
                             </div>

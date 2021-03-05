@@ -59,7 +59,7 @@
             <div class="ps-comments">
               <h3>Bình luận (2)</h3>
               <div class="ps-author">
-                <div class="ps-author__thumbnail"><img src="~assets/images/user/1.jpg" alt=""></div>
+                <div class="ps-author__thumbnail"><img src="~assets/images/user/user.png" alt=""></div>
                 <div class="ps-author__content">
                   <header>
                     <h4 class="pb-10">KHÁCH HÀNG 1</h4>
@@ -68,7 +68,7 @@
                 </div>
               </div>
               <div class="ps-author">
-                <div class="ps-author__thumbnail"><img src="~assets/images/user/1.jpg" alt=""></div>
+                <div class="ps-author__thumbnail"><img src="~assets/images/user/user.png" alt=""></div>
                 <div class="ps-author__content">
                   <header>
                     <h4 class="pb-10">KHÁCH HÀNG 2</h4>
