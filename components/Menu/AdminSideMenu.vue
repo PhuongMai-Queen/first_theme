@@ -71,16 +71,7 @@
       </div>
     </aside>
   </section>
-
 </template>
-<script>
-  import DropdownMenu from '~/node_modules/@innologica/vue-dropdown-menu'
-  export default {
-    components: {
-      DropdownMenu
-    }
-  }
-</script>
 
 
 
