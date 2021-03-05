@@ -3,7 +3,7 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'project',
+        title: 'e-commerce website template',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -20,7 +20,8 @@ module.exports = {
     css: [
         '@/assets/css/style.css',
         '@/assets/css/custom.css',
-        '@/assets/css/tabs.css'
+        '@/assets/css/tabs.css',
+        '@/assets/css/admin-style.css'
     ],
     js: [
     ],
@@ -39,7 +40,8 @@ module.exports = {
                 ]
             }
         ],
-        ['bootstrap-vue/nuxt']
+        ['bootstrap-vue/nuxt'],
+        ['@nuxtjs/vuetify']
     ],
     /*
     ** Customize the progress bar color
