@@ -40,8 +40,7 @@ module.exports = {
                 ]
             }
         ],
-        ['bootstrap-vue/nuxt'],
-        ['@nuxtjs/vuetify']
+        ['bootstrap-vue/nuxt']
     ],
     /*
     ** Customize the progress bar color
