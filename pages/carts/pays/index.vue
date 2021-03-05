@@ -1,6 +1,6 @@
 <template>
   <main class="ps-main">
-    <div class="ps-mission-bg bg-cover" data-background="assets/images/background/background-2.jpg">
+    <div class="ps-mission-bg bg-cover" data-background="~assets/images/background/background-2.jpg">
       <div class="ps-container">
         <h3>Thanh toán</h3>
       </div>
@@ -93,9 +93,9 @@
                       <label for="rdo02">Thẻ tín dụng</label>
                     </div>
                     <ul class="ps-payment-method">
-                      <li><a href="#"><img src="assets/images/payment/1.png" alt=""></a></li>
-                      <li><a href="#"><img src="assets/images/payment/2.png" alt=""></a></li>
-                      <li><a href="#"><img src="assets/images/payment/3.png" alt=""></a></li>
+                      <li><a href="#"><img src="~assets/images/payment/1.png" alt=""></a></li>
+                      <li><a href="#"><img src="~assets/images/payment/2.png" alt=""></a></li>
+                      <li><a href="#"><img src="https://pngimg.com/uploads/visa/visa_PNG36.png" alt=""></a></li>
                     </ul>
                     <button class="ps-btn ps-btn--fullwidth">Đặt Hàng<i class="fas fa-arrow-right"></i></button>
                   </div>

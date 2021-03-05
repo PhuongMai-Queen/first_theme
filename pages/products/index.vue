@@ -35,7 +35,6 @@
         <div class="ps-product-action">
           <div class="ps-pagination">
             <ul class="pagination">
-
             </ul>
           </div>
         </div>
