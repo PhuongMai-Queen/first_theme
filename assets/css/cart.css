@@ -140,3 +140,17 @@ textarea {
   width: 22%;
   margin: 0 auto;
 }
+
+@media (max-width: 479px) {
+  .ps-product--detail .ps-product__content .tab-list {
+    display: flex;
+  }
+  .form-login {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .social-buttons {
+    width: max-content;
+  }
+}
