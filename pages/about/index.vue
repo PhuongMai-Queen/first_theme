@@ -3,8 +3,7 @@
     <div
       class="ps-mission bg-cover"
       data-background="~assets/images/about/about-4.jpg"
-      style="background-repeat: no-repeat"
-    >
+      style="background-repeat: no-repeat">
       <div class="ps-container">
         <h3>Chúng tôi cam kết</h3>
         <h5>
@@ -66,7 +65,7 @@
     </div>
     <div class="ps-all-user pb-50">
       <div class="ps-container">
-        <div class="row ps-col-tiny border-top-tiny pt-50 pb-50">
+        <div class="row ps-col-tiny border-top-tiny pt-50">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="ps-join-team text-center">
               <h3>Chúng tôi luôn sẵn sàng hợp tác và cùng nhau phát triển!</h3>

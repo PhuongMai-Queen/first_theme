@@ -1,11 +1,23 @@
 <template>
   <div>
     <default-header />
-    <slide-top />
-    <div class="ps-products-wrap">
-      <nuxt/>
-      <side-menu />
-    </div>
+    <main class="ps-main">
+      <div class="ps-mission-bg bg-cover">
+        <div class="container">
+          <h3>Sản phẩm</h3>
+        </div>
+      </div>
+      <div class="container pt-50">
+          <div class="row">
+            <div class="col-sm-3">
+              <side-menu />
+            </div>
+            <div class="col-sm-9">
+              <nuxt/>
+            </div>
+          </div>
+        </div>
+    </main>
     <default-footer />
   </div>
 </template>

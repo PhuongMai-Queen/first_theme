@@ -1,7 +1,7 @@
 <template>
   <div>
     <default-header />
-    <slide-top />
+<!--    <slide-top />-->
     <div class="ps-blog-grid">
       <nuxt />
     </div>

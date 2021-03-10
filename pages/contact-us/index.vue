@@ -1,16 +1,13 @@
 <template>
   <main class="ps-main">
-    <div
-      class="ps-mission-bg bg-cover"
-      data-background="~assets/images/background/background-2.jpg"
-    >
-      <div class="ps-container">
+    <div class="ps-mission-bg bg-cover" data-background="~assets/images/background/background-2.jpg">
+      <div class="container">
         <h3>Liên hệ</h3>
       </div>
     </div>
     <div class="ps-contact ps-section pt-50 pb-50">
       <div class="ps-home-contact__form">
-        <div class="ps-container">
+        <div class="container">
           <div class="row ps-col-tiny">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <iframe

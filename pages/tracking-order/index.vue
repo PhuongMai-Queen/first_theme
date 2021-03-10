@@ -4,7 +4,7 @@
          <div
         class="ps-mission-bg bg-cover"
       >
-        <div class="ps-container">
+        <div class="container">
           <h3>Theo dõi đơn hàng</h3>
         </div>
         </div>
@@ -17,9 +17,9 @@
             </div>
         </div> -->
         <div class="ps-product--detail pt-50 pb-50">
-            <div class="ps-container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 col-md-12 col-lg-offset-1">
+                    <div class="col-lg-12 col-md-12 col-lg-offset-1">
                         <div class="ps-product__content mt-50">
                           <div class="tab-list">
                             <tabs

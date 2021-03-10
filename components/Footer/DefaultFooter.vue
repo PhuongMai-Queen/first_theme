@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="ps-subscribe">
-      <div class="ps-container">
+      <div class="container">
         <div class="row">
           <div class="col-sm-3"></div>
           <div class="col-sm-6">
@@ -20,9 +20,9 @@
     </div>
     <div class="ps-footer bg--cover">
       <div class="ps-footer__content">
-        <div class="ps-container">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
               <aside class="ps-widget--footer ps-widget--info">
                 <header><nuxt-link class="ps-logo" to="index.html">LOGO</nuxt-link>
                   <h3 class="ps-widget__title">Thông tin liên hệ</h3>
@@ -35,7 +35,7 @@
                 </footer>
               </aside>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 ">
               <aside class="ps-widget--footer ps-widget--link">
                 <header>
                   <h3 class="ps-widget__title">Bộ sưu tập</h3>
@@ -50,7 +50,7 @@
                 </footer>
               </aside>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 ">
               <aside class="ps-widget--footer ps-widget--link">
                 <header>
                   <h3 class="ps-widget__title">Tài khoản</h3>
@@ -65,7 +65,7 @@
                 </footer>
               </aside>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 ">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 ">
               <aside class="ps-widget--footer ps-widget--link">
                 <header>
                   <h3 class="ps-widget__title">Chính sách</h3>
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="ps-footer__copyright">
-        <div class="ps-container">
+        <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
               <p>&copy; 2021 Bản quyền thuộc về<nuxt-link to="#"> Team Building Themes</nuxt-link></p>
