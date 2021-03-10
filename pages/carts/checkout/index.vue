@@ -1,12 +1,12 @@
 <template>
   <main class="ps-main">
     <div class="ps-mission-bg bg-cover" data-background="assets/images/background/background-2.jpg">
-      <div class="ps-container">
+      <div class="container">
         <h3>Thanh toán</h3>
       </div>
     </div>
-    <div class="ps-checkout pt-80 pb-80">
-      <div class="ps-container">
+    <div class="ps-checkout pt-50 pb-50">
+      <div class="container">
         <form class="ps-checkout__form" action="do_action" method="post">
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
@@ -38,7 +38,7 @@
                     <label for="cb01">Tạo tài khoản mới?</label>
                   </div>
                 </div>
-                <h3 class="mt-40"> Thông tin bổ dung</h3>
+                <h3 class="mt-40"> Thông tin bổ sung</h3>
                 <div class="form-group form-group--inline textarea">
                   <label>Ghi chú về đơn hàng</label>
                   <textarea class="form-control" rows="5" placeholder="Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn..."></textarea>
@@ -93,9 +93,9 @@
                       <label for="rdo02">Thẻ tín dụng</label>
                     </div>
                     <ul class="ps-payment-method">
-                      <li><a href="#"><img src="assets/images/payment/1.png" alt=""></a></li>
-                      <li><a href="#"><img src="assets/images/payment/2.png" alt=""></a></li>
-                      <li><a href="#"><img src="assets/images/payment/3.png" alt=""></a></li>
+                      <li><a href="#"><img src="~/assets/images/payment/1.png" alt=""></a></li>
+                      <li><a href="#"><img src="~/assets/images/payment/2.png" alt=""></a></li>
+                      <li><a href="#"><img src="~/assets/images/payment/3.png" alt=""></a></li>
                     </ul>
                     <button class="ps-btn ps-btn--fullwidth">Đặt Hàng<i class="fas fa-arrow-right"></i></button>
                   </div>

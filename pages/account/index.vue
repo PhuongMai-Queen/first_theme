@@ -4,11 +4,11 @@
         <div
         class="ps-mission-bg bg-cover"
       >
-        <div class="ps-container">
+        <div class="container">
           <h3>Quản Lí Tài Khoản</h3>
         </div>
       </div>
-        <div class="container-fluid pt-50 pb-80">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">

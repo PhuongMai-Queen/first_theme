@@ -13,17 +13,20 @@ module.exports = {
             {
                 rel: 'icon',
                 type: 'image/x-icon',
-                href: '/favicon.ico'
+                href: '/favicon.ico',
+
             }
-        ],
+        ]
     },
     css: [
         '@/assets/css/style.css',
         '@/assets/css/custom.css',
         '@/assets/css/tabs.css',
-        '@/assets/css/admin-style.css'
     ],
     js: [
+    ],
+    buildModules: [
+      '@nuxtjs/tailwindcss',
     ],
     modules: [
         [

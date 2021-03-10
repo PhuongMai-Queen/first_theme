@@ -1,15 +1,12 @@
 <template>
   <main class="ps-main">
-    <div class="test">
+    <div class="ps-mission-bg bg-cover" data-background="~assets/images/background/background-2.jpg">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
-          </div>
-        </div>
+        <h3>Chi tiết sản phẩm</h3>
       </div>
     </div>
     <div class="ps-product--detail pt-60">
-      <div class="ps-container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-lg-offset-1">
             <div class="ps-product__thumbnail">
@@ -99,15 +96,11 @@
       </div>
     </div>
     <div class="ps-section ps-section--top-sales ps-owl-root pt-40 pb-80">
-      <div class="ps-container">
+      <div class="container">
         <div class="ps-section__header mb-50">
           <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 ">
-              <h2 class="ps-section__title">- SẢN PHẨM LIÊN QUAN</h2>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-              <div class="ps-owl-actions"><a class="ps-prev" href="#"><i class="fas fa-arrow-left"></i>Trước</a><a
-                  class="ps-next" href="#">Sau<i class="fas fa-arrow-right"></i></a></div>
+              <h2 class="ps-section__title">SẢN PHẨM LIÊN QUAN</h2>
             </div>
           </div>
         </div>
@@ -117,7 +110,7 @@
                data-owl-item-sm="2" data-owl-item-md="3" data-owl-item-lg="4" data-owl-duration="1000"
                data-owl-mousedrag="on">
             <div class="ps-section__content row">
-              <div class="col-sm-3">
+              <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="ps-shoe mb-30">
                   <div class="ps-shoe__thumbnail">
                     <div class="ps-badge"><span>Mới</span></div>
@@ -142,7 +135,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="ps-shoe mb-30">
                   <div class="ps-shoe__thumbnail">
                     <div class="ps-badge"><span>Mới</span></div>
@@ -166,7 +159,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="ps-shoe mb-30">
                   <div class="ps-shoe__thumbnail">
                     <div class="ps-badge"><span>Mới</span></div>
@@ -191,7 +184,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="ps-shoe mb-30">
                   <div class="ps-shoe__thumbnail">
                     <div class="ps-badge"><span>Mới</span></div>

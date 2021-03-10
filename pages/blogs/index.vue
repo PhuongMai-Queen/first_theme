@@ -3,12 +3,12 @@
     <div
       class="ps-mission-bg bg-cover"
       data-background="~assets/images/background/background-2.jpg">
-      <div class="ps-container">
+      <div class="container">
         <h3>BÀI VIẾT</h3>
       </div>
     </div>
     <div class="ps-blog-grid pt-50 pb-50">
-      <div class="ps-container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="ps-post">
