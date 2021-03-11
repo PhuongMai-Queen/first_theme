@@ -36,7 +36,7 @@
                         <div class="tab-content mb-60">
                             <div v-if="currentTab === 'tab1'">
                                 <table class="table ps-cart__table border_cart__table mt-30">
-                                    <tr>
+                                    <tr class="preview">
                                         <td><a class="ps-product__preview" href="product-detail.html"><img class="mr-15" src="~assets/images/product/cart-preview/1.jpg" alt=""> KUN Sữa chua uống cam 110ml thùng 48 hộp</a></td>
                                         <td>436.000đ</td>
                                         <td>x1</td>
@@ -63,7 +63,7 @@
                             </div>
                             <div  v-if="currentTab === 'tab4'">
                                 <table class="table ps-cart__table border_cart__table">
-                                    <tr>
+                                    <tr class="preview">
                                         <td><a class="ps-product__preview" href="product-detail.html"><img class="mr-15" src="~assets/images/product/cart-preview/1.jpg" alt=""> KUN Sữa chua uống cam 110ml thùng 48 hộp</a></td>
                                         <td>436.000đ</td>
                                         <td>x1</td>
