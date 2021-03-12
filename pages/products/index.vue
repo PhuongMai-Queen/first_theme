@@ -1,45 +1,38 @@
 <template>
-  <main class="ps-main">
-    <div class="ps-mission-bg bg-cover">
-      <div class="ps-container">
-        <h3>Sản phẩm</h3>
-      </div>
-      <div class="ps-products" data-mh="product-listing">
-        <div class="ps-product__columns row" >
-          <div class="col-sm-3" v-for="item in data" :key="item.id">
-            <div class="ps-shoe mb-30">
-              <div class="ps-shoe__thumbnail">
-                <div class="ps-badge"><span>Mới</span></div>
-                <div class="ps-badge ps-badge--sale ps-badge--2nd"><span>-35%</span>
-                </div>
-                <nuxt-link class="ps-shoe__favorite" to="#">
-                  <font-awesome-icon :icon="['fas', 'heart']"></font-awesome-icon>
-                </nuxt-link>
-                <img :src="item.thumbnail" alt="">
-                <nuxt-link class="ps-shoe__overlay" :to="{ name: 'products-id', params: { id: item.id }}"></nuxt-link>
+  <div>
+    <div class="ps-products" data-mh="product-listing">
+      <div class="ps-product__columns row" >
+        <div class="col-sm-12 col-md-4 col-lg-4" v-for="item in data" :key="item.id">
+          <div class="ps-shoe mb-30">
+            <div class="ps-shoe__thumbnail">
+              <nuxt-link class="ps-shoe__favorite" to="#">
+                <font-awesome-icon :icon="['fas', 'heart']"></font-awesome-icon>
+              </nuxt-link>
+              <img :src="item.thumbnail" alt="">
+              <nuxt-link class="ps-shoe__overlay" :to="{ name: 'products-id', params: { id: item.id }}"></nuxt-link>
+            </div>
+            <div class="ps-shoe__content">
+              <div class="ps-shoe__variants">
+                <span class="ps-shoe__price">{{item.price}}đ</span>
               </div>
-              <div class="ps-shoe__content">
-                <div class="ps-shoe__variants">
-                  <span class="ps-shoe__price">{{item.price}}đ</span>
-                </div>
-                <div class="ps-shoe__detail"><nuxt-link class="ps-shoe__name" to="#">{{item.name}}</nuxt-link>
-                  <p class="ps-shoe__categories">
-                    <nuxt-link to="#">{{item.categories}}</nuxt-link>
-                  </p>
-                </div>
+              <div class="ps-shoe__detail"><nuxt-link class="ps-shoe__name" to="#">{{item.name}}</nuxt-link>
+                <p class="ps-shoe__categories">
+                  <nuxt-link to="#">{{item.categories}}</nuxt-link>
+                </p>
               </div>
             </div>
           </div>
-          </div>
-        </div>
-        <div class="ps-product-action">
-          <div class="ps-pagination">
-            <ul class="pagination">
-            </ul>
-          </div>
         </div>
       </div>
-  </main>
+    </div>
+<!--    <div class="ps-product-action">-->
+<!--      <div class="ps-pagination">-->
+<!--        <ul class="pagination">-->
+
+<!--        </ul>-->
+<!--      </div>-->
+<!--    </div>-->
+  </div>
 </template>
 <script>
 import axios from "~/node_modules/axios";

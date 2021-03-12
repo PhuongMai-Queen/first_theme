@@ -5,8 +5,8 @@
         <h3>Giỏ hàng</h3>
       </div>
     </div>
-    <div class="ps-content pt-80 pb-80 ">
-      <div class="container table-responsive">
+    <div class="ps-content pt-80 pb-80">
+      <div class="container">
         <div class="ps-cart-listing">
           <table class="table ps-cart__table">
             <thead>

@@ -1,12 +1,12 @@
 <template>
   <main class="ps-main">
     <div class="ps-mission-bg bg-cover" data-background="~assets/images/background/background-2.jpg">
-      <div class="ps-container">
-        <h3>Bài viết</h3>
+      <div class="container">
+        <h3>Chi tiết bài viết</h3>
       </div>
     </div>
     <div class="ps-blog-grid pt-50 pb-50">
-      <div class="ps-container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 ">
             <div class="ps-post--detail">
@@ -59,16 +59,16 @@
             <div class="ps-comments">
               <h3>Bình luận (2)</h3>
               <div class="ps-author">
-                <div class="ps-author__thumbnail"><img src="~assets/images/user/1.jpg" alt=""></div>
+                <div class="ps-author__thumbnail"><img src="~assets/images/user/user.png" alt=""></div>
                 <div class="ps-author__content">
                   <header>
                     <h4 class="pb-10">KHÁCH HÀNG 1</h4>
                   </header>
-                  <p>Sua nay be 18 thang uống dx hk nuxt-link</p>
+                  <p>Sua nay be 18 thang uống dx hk</p>
                 </div>
               </div>
               <div class="ps-author">
-                <div class="ps-author__thumbnail"><img src="~assets/images/user/1.jpg" alt=""></div>
+                <div class="ps-author__thumbnail"><img src="~assets/images/user/user.png" alt=""></div>
                 <div class="ps-author__content">
                   <header>
                     <h4 class="pb-10">KHÁCH HÀNG 2</h4>

@@ -3,7 +3,7 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'project',
+        title: 'e-commerce website template',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -13,16 +13,20 @@ module.exports = {
             {
                 rel: 'icon',
                 type: 'image/x-icon',
-                href: '/favicon.ico'
+                href: '/favicon.ico',
+
             }
-        ],
+        ]
     },
     css: [
         '@/assets/css/style.css',
         '@/assets/css/custom.css',
-        '@/assets/css/tabs.css'
+        '@/assets/css/tabs.css',
     ],
     js: [
+    ],
+    buildModules: [
+      '@nuxtjs/tailwindcss',
     ],
     modules: [
         [
