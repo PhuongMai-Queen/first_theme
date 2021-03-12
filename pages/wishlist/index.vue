@@ -1,7 +1,7 @@
 <template>
   <main class="ps-main">
-    <div class="ps-mission-bg bg-cover" data-background="assets/images/background/background-2.jpg">
-      <div class="container">
+    <div class="ps-mission-bg bg-cover" data-background="~assets/images/background/background-2.jpg">
+      <div class="ps-container">
         <h3>Wishlist</h3>
       </div>
     </div>
